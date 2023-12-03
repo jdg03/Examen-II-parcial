@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="https://s.pinimg.com/webapp/favicon-22eb868c.png"/>
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+  </head>
+  <body>
+    <!--  -->
+    <nav class="navbar">
+      <div class="logo">
+        <div
+          class=""
+          style="
+            height: 48px;
+            width: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          "
+        >
+          <svg
+            class=""
+            height="24"
+            width="24"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            aria-label=""
+            role="img"
+            style="color: #e60023"
+          >
+            <path
+              style="fill: #e60023"
+              d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"
+            ></path>
+          </svg>
+        </div>
+        <span>Pinterest</span>
+      </div>
+      <div class="nav-options">
+        <div onclick="explorar()">Explorar</div>
+        <div onclick="misTableros()">Mis tableros</div>
+        <div class="current-user" onclick="listaUsuarios()">
+          <img src="assets/profile-pics/naruto.jpg" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- Secton Explorer  -->
+    <section id="explore-section">
+      <div class="explore">
+        <div>Tags:</div>
+        <div class="explore-option selected">Jardinería</div>
+        <div class="explore-option">Tatuajes</div>
+        <div class="explore-option">Arte</div>
+        <div class="explore-option">Navidad</div>
+        <div class="explore-option">Decoración</div>
+        <div class="explore-option">Muebles</div>
+        <div class="explore-option">Escritorios</div>
+      </div>
+      <!--seccion de pines-->
+      <div class="container">
+        
+       
+
+
+    </section>
+
+
+    <!--seccion de boars-->
+
+    <section id="boards-section">
+      <h1>Mis tableros</h1>
+    
+      <div class="board-container">
+
+         
+
+          
+      </div>
+
+      
+    </section>
+    
+    <section id="users-section">
+      <h1>Seleccionar un usuario</h1>
+
+      <!-- Seccion de usuarios-->
+      <div id="users-container">
+       
+        <div class="user-card">
+         
+        
+      </div>
+
+      
+    </section>
+    <section id="board-detail-section">
+      <br>
+      <h1>Pines del tablero "Tablero 1"</h1>
+      <br>
+      <hr>
+      
+      <div style="color: red">Mostrar aquí solo los pines del tablero seleccionado (Borrar esta linea)</div>
+
+      <div class="container">
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/c3/7a/90/c37a90ab390dcd008882a170f4f7b008.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/79/fc/a0/79fca0de4bc27c9eb734a46102f45e18.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/0d/e0/4c/0de04c7caa46c1613de0399368e4570f.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/32/07/0d/32070d7577de738b19ff8891db5c16ba.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/07/96/a9/0796a9b32d6df85763c9d27226d1769d.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/45/69/32/456932103fa41a9afa09ccfb96da1be2.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/fe/a1/98/fea198f292d2cdbcf239b18d79b98e7a.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/236x/b3/b6/98/b3b69874da438a5f19c7e6f4b8114652.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <div class="box">
+          <img
+            src="https://i.pinimg.com/474x/f0/fe/d3/f0fed32d4d11dc7580e0a55c78fce8c9.jpg"
+            alt=""
+          />
+          <div><h3 class="pin-title">Título</h3></div>
+          <div class="pin-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/controlador.js"></script>
+  </body>
+</html>

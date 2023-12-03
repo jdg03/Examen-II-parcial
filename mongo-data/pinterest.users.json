@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "656c17728244082d468b9659"
+  },
+  "nombre": "Naruto",
+  "imagenPerfil": "assets/profile-pics/naruto.jpg",
+  "boards": [
+    {
+      "$oid": "656c14368244082d468b9651"
+    },
+    {
+      "$oid": "656c14368244082d468b9652"
+    },
+    {
+      "$oid": "656c14368244082d468b9653"
+    },
+    {
+      "$oid": "656c14368244082d468b9654"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965a"
+  },
+  "nombre": "Gohan",
+  "imagenPerfil": "assets/profile-pics/gohan.jpg",
+  "boards": [
+    {
+      "$oid": "656c16c58244082d468b9655"
+    },
+    {
+      "$oid": "656c16c58244082d468b9656"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965b"
+  },
+  "nombre": "Bulma",
+  "imagenPerfil": "assets/profile-pics/bulma.jpg",
+  "boards": [
+    {
+      "$oid": "656c16c58244082d468b9657"
+    },
+    {
+      "$oid": "656c16c58244082d468b9658"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965c"
+  },
+  "nombre": "Videl",
+  "imagenPerfil": "assets/profile-pics/videl.jpg",
+  "boards": []
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965d"
+  },
+  "nombre": "Naruto",
+  "imagenPerfil": "assets/profile-pics/naruto.jpg",
+  "boards": []
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965e"
+  },
+  "nombre": "Hinata",
+  "imagenPerfil": "assets/profile-pics/hinata.jpg",
+  "boards": []
+},
+{
+  "_id": {
+    "$oid": "656c17728244082d468b965f"
+  },
+  "nombre": "Sasuke",
+  "imagenPerfil": "assets/profile-pics/sasuke.jpg",
+  "boards": []
+}]
